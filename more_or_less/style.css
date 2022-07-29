@@ -1,0 +1,72 @@
+body{
+    background-image: url(./images/puzzle-g72bb4825b_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #002db2
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 28px #99ff00;
+    font-size: 50px;
+}
+p{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 28px #99ff00;
+    
+}
+
+.version2 h1{ 
+    text-shadow: 2px 2px 28px #99ff00;
+    font-size: 50px;
+    position: absolute;
+    top: 332px;
+    left: 623px;
+
+}
+.improvement p{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 28px #99ff00;
+
+}
+
+
+button{
+    background-color:rgb(0, 255, 221);;
+    border: none;
+    color: black;
+    padding: 21px 39px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 11px;
+}
+button:hover{
+    box-shadow: 0 8px 16px 0 #dd00ff; 
+}
+
+
+.startbutton{
+    position: relative;
+    top: 30px;
+    left: 644px;
+    color: black;
+}
+
+.levels{
+    position: relative;
+    top: 286px;
+    left: 361px;
+}
