@@ -1,0 +1,76 @@
+body {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  display: flex;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  cursor: url("./bingo_stamp.png") 15 69, pointer;
+}
+
+h1,
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20pt;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+h1 {
+  line-height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+p a {
+  text-decoration: none;
+  color: #f1c40f;
+}
+
+#squarefree {
+  font-family: Helvetica;
+  margin: 0 auto;
+  background: #49c797;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15pt;
+  line-height: 0px;
+}
+
+#bingotable {
+  margin: 0 auto;
+  text-align: center;
+  width: 403px;
+  height: 503px;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  font-family: Helvetica;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid black;
+  width: 20%;
+}
+
+.orange {
+  background: #ffea00;
+}
+
+
+td.stamped{
+  background-image: url("./red_stamp.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.green {
+  background-color: rgb(72, 252, 72);
+}
