@@ -5,6 +5,11 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(42, 42, 42);
+}
 ::selection{
   color: #000;
   background: #fff;
@@ -124,4 +129,32 @@ img {
 }
 .slides{
     display: none;
+}
+
+
+
+#projects{
+  position: relative;
+  top: 100px;
+
+}
+
+.tesla > a{
+    color:#fff;
+    border:  1px solid red;
+}
+.tesla > a:hover{
+  background-color: red;
+}
+.nespresso > a{
+  color: #fff;
+  border:  1px solid red;
+}
+.more_less>a{
+  color: #fff;
+  border:  1px solid red;
+}
+.crypto>a{
+  color: #fff;
+  border:  1px solid red;
 }
