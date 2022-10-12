@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1{
+	font-size: 300%;
+}
+h1, h4{
+	color: white;
+}
+html {
+	width: 100%;
+	height: 100%;
+	background: url("./Chris\ Allington_Turner\ County.jpeg") no-repeat center;
+	flex-wrap: wrap;
+	background-size: max(100vw) max(100vh);
+}
+
+body {
+	width: 80%;
+	margin: auto;
+	padding-top: 3rem;
+}
+
+body > * {
+	width: 100%;
+	text-align: center;
+}
+
+input {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background: linear-gradient(48deg,#F8CDDA,#1D2B64);
+	color: black;
+	width: 100%;
+	height: 2rem;
+	font-size: 1.5rem;
+	border-radius: 0;
+	border: none;
+	outline: none;
+
+}
+h2,h3{
+	color: white;
+}
+
+#searchBar {
+	position: relative;
+	margin: auto;
+	width: 40vw;
+	display: flex;
+	justify-content: center;
+}
+
+#autofill {
+	width: 100%;
+	color: black;
+	top: 2rem;
+	position: absolute;
+	border: none;
+	outline: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	overflow: hidden;
+
+}
+
+#autofill > * {
+	background: linear-gradient(48deg,#F0F2F0,#000C40);	
+	font-size: 1rem;
+}
+
+#autofill .activeSection {
+	background: linear-gradient(48deg,#F0F2F0,#000C40);
+}
+
+#autofill > *:hover {
+	background: linear-gradient(48deg,#F0F2F0,#000C40);
+}
+
+#targetBlock {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#targetBlock > div:first-child {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#targetBlock img {
+	display: block;
+}
+
+.day1 {
+	display: grid;
+	color:black;
+	grid-template-columns: auto auto;
+	width: 40%;
+}
