@@ -306,7 +306,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "what I know";
 }
 .skills .skills-content .column{
     width: 100%;
@@ -375,7 +375,10 @@ section .title::after{
     width: 68%;
 }
 .skills-content .right .mysql::before{
-    width: 50%;
+    width: 60%;
+}
+.skills-content .right .react::before{
+    width: 30%;
 }
 
 /* teams section styling */
